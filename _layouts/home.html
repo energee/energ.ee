@@ -1,6 +1,14 @@
 <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}">
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.3.1/css/all.css">
-
+<script>
+  window.onload = function() {
+    if (localStorage.getItem('wasVisited') == null) {
+      localStorage.setItem('wasVisited', 1);
+      let body = document.getElementsByTagName('body');
+      body[0].classList.add("glitch");
+    }
+  };
+</script>
 <main>
   <h1>energee</h1>
   <p>engineer, hacker, early-adopter</p>
