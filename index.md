@@ -5,6 +5,6 @@
 layout: home
 ---
 
-BTC: 32rJ6huWyawEdWdVc242y9bWqDyi2XMAUX
-ETH: 0x66e566960f42650343a9b3454b6df0cdcead567e
+BTC: 32rJ6huWyawEdWdVc242y9bWqDyi2XMAUX <br>
+ETH: 0x66e566960f42650343a9b3454b6df0cdcead567e <br>
 LTC: LiJb2qwEjuNEK4dkTHHVq18ydHve9vGrSW
