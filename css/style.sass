@@ -1,5 +1,10 @@
 ---
 ---
+  
+/////////// Variables ////////////
+$links: #0074D9
+$paragraph: gray
+$social-links: black
 
 @font-face
   font-family: 'avenir'
@@ -19,11 +24,14 @@ ul
   padding-left: 0
 
 a
-  color: #0074D9
+  color: $links
   text-decoration: none
+  transition: .5s ease-in
+  &::hover
+    lighten( $links, 10% )
 
 p
-  color: gray
+  color: $paragraph
 
 ////////// Classes /////////
 
@@ -36,8 +44,10 @@ p
     display: inline
     padding: 0 .25em
   a
-    color: black
+    color: $social-links
     text-decoration: none
+    &::hover
+      lighten( $links, 10% )
 
 ////////// Sick Animations /////////  
 
